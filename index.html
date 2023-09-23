@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insertar datos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+        <div id="wrapper" class="container">
+  
+                
+                 <center>
+
+                    <h1>datos de alumnos tecnicatura Redes y Software</h1><hr>
+                        <form  method="POST" name="form-work" action="logica/guardar.php">
+                    
+                                <fieldset>
+                                
+                                  <div class="form-group">
+                                    <div class="col-md-6">
+                                      <label class="control-label" for="nome">Nombre</label>
+                                      <input name="nombre" class="form-control" placeholder="Tu nombre" type="text">
+                                      </div>
+                                    </div>
+                          
+                                  <div class="form-group">
+                                      <div class="col-md-6">
+                                        <label class="control-label" for="surname">Apellido</label>
+                                        <input name="apellido" class="form-control" placeholder="Tu apellido" type="text">
+                                      </div>
+                                    </div>
+                          
+                                    
+                          
+                                    
+                          
+                                    <div class="form-group">
+                                      <div class="col-md-6">
+                                        <label class="control-label" for="email">Email</label>
+                                        <input name="email" class="form-control" placeholder="******@gmail.com" type="text">
+                                      </div>
+                                    </div>
+                          
+                                   
+                                  
+                                    <div class="form-group">
+                                      <div class="actualizar">
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block info">actualizar</button>
+                                      </div>
+                                    </div>    
+           
+                                </fieldset> 
+                                
+                              </form>
+                              <button onclick=location.href="/PRUEBA_PARCIAL/logica/leer.php" class="btn btn-primary btn-lg btn-block info">listar alumnos</button>
+                              <button onclick=location.href="/PRUEBA_PARCIAL/eliminarAlumno.html" class="btn btn-primary btn-lg btn-block info">eliminar</button>
+                              <button onclick=location.href="modi_alu.html" class="btn btn-primary btn-lg btn-block info">Modificar</button>
+                 </center>
+              </div>
+    
+
+
+
+
+</body>
+</html>
